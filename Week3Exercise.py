@@ -4,6 +4,7 @@ try:
     #Ask user for input
     UserSentence = input("Enter your Sentence: ")
     senlength = len(UserSentence)
+    #Reverse the users input string
     RevUserSen = UserSentence[senlength::-1]
     #Iterate over the user input string and print out every 2nd element
     #### string[start:stop:step size]####
