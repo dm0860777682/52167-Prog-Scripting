@@ -4,9 +4,10 @@ try:
     #Ask user for input
     UserSentence = input("Enter your Sentence: ")
     senlength = len(UserSentence)
+    RevUserSen = UserSentence[senlength::-1]
     #Iterate over the user input string and print out every 2nd element
     #### string[start:stop:step size]####
-    for x in UserSentence[0:senlength:2]:
+    for x in RevUserSen[0:senlength:2]:
         print(x)
 except Exception:
     #This will stop program will not fall over if this user does not enter a integer. 
