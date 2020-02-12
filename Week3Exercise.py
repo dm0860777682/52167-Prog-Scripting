@@ -1,4 +1,5 @@
 print("Loop over String program ")
+# first attempt
 # Write a program that takes askes a user to input a string  and outputs every seconnd letter in reverse order.
 try:
     #Ask user for input
