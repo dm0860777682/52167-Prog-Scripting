@@ -1,4 +1,4 @@
-print("BMI CALCULATER")
+pyprint("BMI CALCULATER")
 # this code will calculate Bmi for any user
 # try will catch any non number input
 try:
