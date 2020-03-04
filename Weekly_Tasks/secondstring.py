@@ -1,6 +1,9 @@
+#G00387859 DONAL MAHER
+"""
+# Write a program that takes askes a user
+# to input a string  and outputs every seconnd letter in reverse order. 
+"""
 print("Loop over String program ")
-# Write a program that takes askes a user to input a string  and outputs every seconnd letter in reverse order.
-# Referenence: https://www.geeksforgeeks.org/print-without-newline-python/, https://www.w3schools.com/python/python_howto_reverse_string.asp
 try:
     #Ask user for input
     UserSentence = input("Please enter a sentence: ")

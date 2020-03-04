@@ -1,6 +1,9 @@
-pyprint("BMI CALCULATER")
-# this code will calculate Bmi for any user
-# try will catch any non number input
+#G00387859 DONAL MAHER
+"""
+This python script code will calculate Bmi for any user.
+Any user input will need a try and catch to catch any non int input. 
+"""
+print("BMI CALCULATER")
 try:
     #Ask user for input and convert from string to float
     weight = float(input("Enter your weight: "))
@@ -13,4 +16,4 @@ try:
     print("BMI is {:2.2f}.".format(bim))
 except Exception:
     #This will stop program will not fall over if this user does not enter a integer. 
-    print("sorry, somthing went wrong!")
+    print("sorry, something went wrong!")
